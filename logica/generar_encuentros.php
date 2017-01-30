@@ -86,10 +86,10 @@ require_once 'conexion.php';
 	<td align="center" valign="middle"><p>'.$n1.'</p> </td>	
 	<td>&nbsp;</td>		
 	<td>&nbsp;</td>								 
-    <td align="center" valign="middle"><p><img src="Logica/imagenes/'.$row['img_local'].'" width="99" height="99"  alt=""/></p>
+    <td align="center" valign="middle"><p><img src="logica/imagenes/'.$row['img_local'].'" width="99" height="99"  alt=""/></p>
     <p>'.$row['nom_local'].'</p></td>
     <td>&nbsp;</td>
-    <td align="center" valign="middle"><p><img src="Logica/imagenes/'.$row['img_visitante'].'" width="99" height="99" alt=""/></p>
+    <td align="center" valign="middle"><p><img src="logica/imagenes/'.$row['img_visitante'].'" width="99" height="99" alt=""/></p>
     <p>'.$row['nom_visitante'].'</p></td>
 	<td>&nbsp;</td>	
 	<td align="center" valign="middle"><p>'.$n.'a </p> </td>
@@ -107,10 +107,10 @@ require_once 'conexion.php';
 	<td align="center" valign="middle"><p>'.$n1.'</p> </td>	
 	<td>&nbsp;</td>		
 	<td>&nbsp;</td>								 
-	<td align="center" valign="middle"><p><img src="Logica/imagenes/'.$row['img_visitante'].'" width="99" height="99" alt=""/></p>
+	<td align="center" valign="middle"><p><img src="logica/imagenes/'.$row['img_visitante'].'" width="99" height="99" alt=""/></p>
     <p>'.$row['nom_visitante'].'</p></td>
     <td>&nbsp;</td>
-    <td align="center" valign="middle"><p><img src="Logica/imagenes/'.$row['img_local'].'" width="99" height="99"  alt=""/></p>
+    <td align="center" valign="middle"><p><img src="logica/imagenes/'.$row['img_local'].'" width="99" height="99"  alt=""/></p>
     <p>'.$row['nom_local'].'</p></td>
 	<td>&nbsp;</td>	
 	<td align="center" valign="middle"><p>'.$n.'a </p> </td>

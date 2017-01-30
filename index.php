@@ -2,7 +2,7 @@
 
 
 <?php
-require_once 'logica/conexion.php';
+require_once 'conexion.php';
 $conn = conectar();
 
 desconectar($conn);
@@ -109,7 +109,7 @@ desconectar($conn);
 						<h2>Listado de encuentros</h2>
 					</header>
 					<p>El listado de encuentros se vera a continuacion</p>
-					<form action="Logica/generar_encuentros.php" method="post" name="form2" id="form2">
+					<form action="logica/generar_encuentros.php" method="post" name="form2" id="form2">
 					  <input type="button" name="boton_enc" id="boton_enc" value="Generar encuentros">
 			     	 </form>
 					<p>&nbsp;</p>
